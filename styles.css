@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+    background-color: #FEB342;
+    color: white;
+    height: 100%;
+    font-family: Raleway;
+    margin: 0;
+}
+body>div {
+    padding: 0% 10%;
+}
+.background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+.logo {
+    /* height and width scaling unknown */
+    height: 40%;
+    width: 40%;
+    position: fixed;
+    bottom: 0;
+    left: 2.5%;
+    z-index: 1;
+}
+.spacer {
+    /* Arbitrary Value */
+    height: 12vw;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team>div {
+    font-size: 1.25vw;
+    padding: 1vw;
+    width: 30%;
+}
+.team>div>img {
+    border-radius: 50%;
+    padding: 1vw;
+}
+.team>div>p {
+    font-size: 1.1vw;
+}
+.faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.faq>div {
+    font-size: 1.5vw;
+    padding: 1vw;
+    width: 29%;
+}
+.faq>div>p {
+    font-size: 1.25vw;
+}
+header {
+    background-color: #F57F0D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 9%;
+    width: 100%;
+}
+header>img {
+    display: block;
+    /* This kinds just works */
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+nav {
+    background: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    /* Arbitrary value */
+    height: 9%;
+}
+ul {
+    list-style-type: none;
+    position: fixed;
+    /* Arbitrary value */
+    bottom: .4vw;
+    right: 3vw;
+}
+li {
+    float: right;
+}
+li a {
+    border: 1px solid transparent;
+    color: #F57F0D;
+    display: block;
+    font-size: 1vw;
+    /* Temporary padding values */
+    padding: .5vw 1vw;
+    text-decoration: none;
+}
+li a:hover {
+    border: 1px solid #F57F0D;
+    border-radius: 1vw;
+    transition: .5s;
+}
