@@ -60,6 +60,29 @@ body>div {
 .faq>div>p {
     font-size: 1.25vw;
 }
+nav {
+    background-color: #F57F0D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 9%;
+    width: 100%;
+}
+nav>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 9%;
+    width: 100%;
+}
+/*
 header {
     background-color: #F57F0D;
     position: fixed;
@@ -70,7 +93,7 @@ header {
 }
 header>img {
     display: block;
-    /* This kinds just works */
+     This kinds just works 
     margin-left: auto;
     margin-right: auto;
     height: 100%;
@@ -80,22 +103,22 @@ nav {
     bottom: 0;
     position: fixed;
     width: 100%;
-    /* Arbitrary value */
+     Arbitrary value 
     height: 9%;
 }
+*/
 ul {
     list-style-type: none;
     position: fixed;
     /* Arbitrary value */
-    bottom: .4vw;
-    right: 3vw;
+    top: .2vw;
 }
 li {
     float: right;
 }
 li a {
     border: 1px solid transparent;
-    color: #F57F0D;
+    color: white;
     display: block;
     font-size: 1vw;
     /* Temporary padding values */
@@ -103,7 +126,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    border: 1px solid #F57F0D;
+    border: 1px solid white;
     border-radius: 1vw;
     transition: .5s;
 }
