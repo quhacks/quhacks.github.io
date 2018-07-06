@@ -19,8 +19,8 @@ body>div {
 }
 .logo {
     /* height and width scaling unknown */
-    height: 40%;
-    width: 40%;
+    max-width: 40vw;
+    height: auto;
     position: fixed;
     bottom: 0;
     left: 2.5%;
@@ -41,6 +41,9 @@ body>div {
     width: 30%;
 }
 .team>div>img {
+    /* Very arbitrary */
+    max-width: 10vw;
+    height: auto;
     border-radius: 50%;
     padding: 1vw;
 }
@@ -76,6 +79,7 @@ nav>img {
 }
 footer {
     background-color: white;
+    color: #F57F0D;
     position: fixed;
     bottom: 0;
     left: 0;
