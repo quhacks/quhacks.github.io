@@ -68,13 +68,13 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    height: 9%;
+    height: 9vh;
     width: 100%;
 }
 nav>img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* So the scroll bar doesn't mess with its placement */
+    margin-left: 46vw;
     height: 100%;
 }
 footer {
@@ -82,55 +82,38 @@ footer {
     color: #F57F0D;
     position: fixed;
     bottom: 0;
-    left: 0;
-    height: 9%;
+    height: 9vh;
     width: 100%;
 }
-/*
-header {
-    background-color: #F57F0D;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 9%;
-    width: 100%;
-}
-header>img {
+footer>a {
     display: block;
-     This kinds just works 
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
+    float: right;
+    margin: 2vh .5vw;
 }
-nav {
-    background: white;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-     Arbitrary value 
-    height: 9%;
+footer>a>img {
+    height: 5vh;
+    width: auto;
 }
-*/
 ul {
     list-style-type: none;
     position: fixed;
     /* Arbitrary value */
-    top: .2vw;
+    top: .1vh;
 }
 li {
-    float: right;
+    float: left;
 }
 li a {
     border: 1px solid transparent;
     color: white;
     display: block;
-    font-size: 1vw;
+    font-size: 2vh;
     /* Temporary padding values */
-    padding: .5vw 1vw;
+    padding: 1.5vh 1vw;
     text-decoration: none;
 }
 li a:hover {
     border: 1px solid white;
-    border-radius: 1vw;
+    border-radius: 2vh;
     transition: .5s;
 }
